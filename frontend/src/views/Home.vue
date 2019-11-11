@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.jpg" />
-    <HelloWorld msg="頑張る！" />
+    <HelloWorld msg="俺は小能猫" />
   </div>
 </template>
 
