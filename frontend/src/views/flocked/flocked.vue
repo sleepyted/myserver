@@ -41,8 +41,6 @@
 export default {
   name: "flocked",
   mounted() {
-    console.clear();
-
     let sources = [
       {
         name: "pearl",
