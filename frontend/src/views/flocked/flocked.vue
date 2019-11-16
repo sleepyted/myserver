@@ -44,8 +44,8 @@ export default {
     let sources = [
       {
         name: "me",
-        url: window.location.origin + "/img/me.jpg"
-        //   "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Meisje_met_de_parel.jpg/300px-Meisje_met_de_parel.jpg"
+        // url: window.location.origin + "/img/me.jpg"
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Meisje_met_de_parel.jpg/300px-Meisje_met_de_parel.jpg"
       }
     ];
 
