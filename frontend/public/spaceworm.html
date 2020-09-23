@@ -230,17 +230,22 @@
         }
 
         //mouse position
-        canvas.addEventListener(
-          "mousemove",
-          function(e) {
-            last_mouse.x = mouse.x;
-            last_mouse.y = mouse.y;
+        // canvas.addEventListener(
+        //   "mousemove",
+        //   function(e) {
+        //     last_mouse.x = mouse.x;
+        //     last_mouse.y = mouse.y;
 
-            mouse.x = e.pageX - this.offsetLeft;
-            mouse.y = e.pageY - this.offsetTop;
-          },
-          false
-        );
+        //     mouse.x = e.pageX - this.offsetLeft;
+        //     mouse.y = e.pageY - this.offsetTop;
+        //   },
+        //   false
+        // );
+          setInterval(() => {
+            mouse.x = document.body.clientWidth * Math.random()
+            mouse.y =  document.body.clientHeight * Math.random()
+          }, 2000) 
+
 
         canvas.addEventListener("mouseleave", function(e) {
           mouse.x = false;
