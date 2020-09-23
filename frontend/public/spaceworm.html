@@ -154,7 +154,7 @@
         let nameOfVariable = "value",
           mouse = {},
           last_mouse = {},
-          rl = 50,
+          rl = 200, // 间隔
           randl = [],
           target = { x: w / 2, y: h / 2 },
           last_target = {},
@@ -168,7 +168,7 @@
             new rope(
               w / 2,
               h / 2,
-              (Math.random() * 1 + 0.5) * 500,
+              (Math.random() * 1 + 0.5) * 1200, // 长度 
               Math.random() * 0.4 + 0.1,
               Math.random() * 15 + 5
             )
